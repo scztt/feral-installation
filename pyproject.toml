@@ -1,0 +1,19 @@
+[project]
+name = "feral-final"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [{ name = "scott carver", email = "scott@artificia.org" }]
+dependencies = [
+    "supriya>=25.3b2",
+    "ipykernel>=6.29.5",
+    "git+https://github.com/MTG/freesound-python.git",
+    "requests-oauthlib>=2.0.0",
+    "typer[all]>=0.16.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = { text = "MIT" }
+
+
+[tool.pdm]
+distribution = false
